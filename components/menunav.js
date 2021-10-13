@@ -44,7 +44,7 @@ function MenuNav({ handleOpen, isOpen }) {
           </Link>
           <Link href="/wishlist">
             <li className="mb-2 hover:underline mx-4 rounded-xl cursor-pointer">
-              Liked
+              Wishlist
             </li>
           </Link>
         </ul>

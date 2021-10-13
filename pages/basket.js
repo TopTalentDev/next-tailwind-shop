@@ -55,7 +55,7 @@ function Basket() {
                           <br />
                           to start shopping click{" "}
                           <span className="underline">
-                            <Link href="/shop">here</Link>
+                            <Link href="/">here</Link>
                           </span>
                         </p>
                       </div>

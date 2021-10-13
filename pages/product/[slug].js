@@ -43,7 +43,7 @@ export async function getStaticProps({ params }) {
   if (!data.length) {
     return {
       redirect: {
-        destination: "/shop",
+        destination: "/",
         permanent: false,
       },
     };
@@ -91,7 +91,7 @@ function Product({ dataItem, dataAlso }) {
         <Header />
         <div className="max-w-4xl mx-auto min-h-screen pt-16">
           <div className="flex justify-between place-items-center py-4 px-1 mb-4">
-            <Link href="/shop">
+            <Link href="/">
               <div className="w-9 h-9 shadow-lg bg-white text-cusblack hover:bg-cusblack hover:text-white duration-200 cursor-pointer rounded-full flex justify-center place-items-center">
                 <svg
                   className="w-4 h-4 "
