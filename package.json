@@ -1,0 +1,32 @@
+{
+  "scripts": {
+    "start": "start npm run run-mock-api && start npm run dev",
+    "dev": "next dev",
+    "run-mock-api": "json-server --watch app/db.json --port 3004",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "axios": "^0.21.1",
+    "framer-motion": "^4.1.17",
+    "json-server": "^0.17.0",
+    "micro": "^9.3.4",
+    "moment": "^2.29.1",
+    "next": "latest",
+    "nookies": "^2.5.2",
+    "nprogress": "^0.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-loading-skeleton": "^2.2.0",
+    "react-nprogress": "^0.1.6",
+    "react-number-format": "^4.7.3",
+    "react-redux": "^7.2.4",
+    "react-responsive-carousel": "^3.2.20"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
