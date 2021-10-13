@@ -26,7 +26,7 @@ function WishProduct({ item, idx }) {
           className="text-xs my-1.5"
           displayType={"text"}
           thousandSeparator={true}
-          prefix={"Rp"}
+          prefix={"$"}
           renderText={(value, props) => (
             <p className="text-xs my-1.5" {...props}>
               {value}

@@ -169,7 +169,7 @@ function Product({ dataItem, dataAlso }) {
                   className="my-3 font-semibold text-lg text-cusblack"
                   displayType={"text"}
                   thousandSeparator={true}
-                  prefix={"Rp"}
+                  prefix={"$"}
                   renderText={(value, props) => (
                     <p className="text-sm font-semibold" {...props}>
                       {value}
