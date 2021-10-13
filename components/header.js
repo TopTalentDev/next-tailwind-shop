@@ -53,7 +53,7 @@ function Header() {
             </svg>
           </button>
           <h3 className="hidden md:inline text-md mr-2 font-semibold ml-3 text-cusblack">
-            wefootwear
+            Marketplace
           </h3>
         </div>
         <div className="profile flex items-center place-items-center">
